@@ -1,0 +1,262 @@
+body{
+	background-color:#212121;
+	font-family: 'Raleway', sans-serif;
+	width:100%;
+	padding-bottom:5%;
+	
+}
+p{
+	font-family: 'Poppins', sans-serif;
+	color:white;
+}
+strong{
+	color:#00bfa5;
+}
+/*header*/
+header{
+		margin-bottom:25%;
+}
+img{
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+.center{
+	text-align: center;
+}
+/*navigation*/
+nav{
+	position:fixed;
+	width:100%;
+	padding-top:2%;
+	padding-bottom:2%;
+	top:0;
+	background:#212121;
+}
+
+nav a{
+	color:white;
+	text-decoration: none;
+	font-size: 1.3rem;
+	display:inline;
+	float:right;
+	margin-right:5%;
+	text-shadow: 5px 5px 3px black;
+}
+nav a:hover{ 
+	opacity:0.5;
+}
+/*heading-page*/
+.heading-page{
+	clear:both;
+	text-align: center;
+	color:#00bfa5;
+	margin-top:17%;
+
+}
+h1{
+	font-size:100px;
+}
+/*sections*/
+section{
+	clear:both;
+	padding: 1%;
+}
+#intro{
+	padding-left:15%;
+	padding-right: 15%;
+}
+h2{
+	color:#00bfa5;
+	font-size:3rem;
+}
+#intro article{
+	width:50%;
+	float:left;
+}
+hr{
+	width:10%;
+	border: 3px solid #00bfa5;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+/*intro*/
+.img-intro{
+	border-radius: 300px;
+	border:2px solid white;
+	height: 350px;
+	width: 350px;
+	box-shadow: 5px 5px 3px black;
+}
+.intro-heading{
+	margin-bottom: 15%;
+}
+h4{
+	color:#00bfa5;
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+h3{
+	color:white;
+	font-size: 2rem;
+	margin-top:10px;
+}
+.no-margin-bot{
+	margin-bottom: 0;
+}
+
+/*school*/
+#school{
+	padding:5%;
+	margin-right:5%;
+}
+.school-heading{
+	margin-bottom: 15%;
+	margin-top:15%;
+	float:right;
+	width:40%;
+	text-align:right;
+}
+.school-heading h2{
+	margin-bottom:10px;
+	margin-top:0;
+}
+#school article{
+	margin-top:15%;
+	width:30%;
+	float:right;
+}
+
+/*interest*/
+.interest-heading{
+	padding:5%;
+	padding-top:15%;
+	text-align: center;
+	margin-bottom: 30%;
+}
+.interest-heading h2{
+	margin-bottom:10px;
+	font-size:6rem;
+	opacity:0.7;
+	text-shadow: 5px 5px 3px black;
+}
+/*interest1*/
+#interest1{
+	padding:3%;
+}
+#interest1 article{
+	width:40%;
+	float:left;
+}
+#interest1 article h2{
+	margin-bottom:10px;
+	margin-top:0;
+}
+.interest1-img{
+	width:55%;
+	margin-right:5%;
+}
+.article-img{
+	width:100%;
+}
+#interest1-work{
+	padding:3%;
+	padding-top:15%;
+}
+#interest1-work article{
+	float:left;
+	width:33%;
+	height:300px;
+	border-radius:10px;
+	margin-right:0.3%;
+	padding:0;
+	background-size:cover;
+	margin-bottom:1%;
+	box-shadow: 5px 5px 3px black;
+}
+.hover-display{
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+	text-align: center;
+	visibility: hidden;
+}
+.hover-display h3{
+	margin-top:0;
+	position:relative;
+	top:45%;
+}
+ article:hover .hover-display{
+	visibility: visible;
+}
+
+/*interest 2*/
+#interest2{
+	padding:3%;
+	padding-top:30%;
+}
+#interest2 article{
+	width:30%;
+	float:right;
+	margin-right:5%;
+	text-align: right;
+}
+#interest2 article h2{
+	margin-bottom:10px;
+	margin-top:0;
+	text-align: right;
+}
+
+/*interest 3*/
+#interest3{
+	padding:3%;
+	padding-top:20%;
+}
+#interest3 article{
+	width:30%;
+	float:left;
+	margin-left:10%;
+	text-align: left;
+}
+/*footer*/
+footer{
+	clear:both;
+	padding-top:20%;
+}
+.shadow{
+	text-shadow: 5px 5px 3px black;
+}
+button{
+	padding:20px;
+	border-radius: 10px;
+	border: 3px solid #00bfa5;
+	background: transparent;
+	width:20%;
+}
+button:hover{
+	background: #00bfa5;
+	box-shadow: 5px 5px 3px black;
+}
+#contacts{
+	margin-top:10%;
+}
+.sns, .sns2{
+	width:50px;
+	height:50px;
+
+}
+.sns:hover{
+	background-color:#0d47a1;
+}
+.sns2:hover{
+	background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left bottom, red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top right, red, orange); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top right, red, purple); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top right, orange, purple); /* Standard syntax */
+}
+}
+
