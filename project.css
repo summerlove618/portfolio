@@ -187,7 +187,12 @@ h3{
 .hover-display h3{
 	margin-top:0;
 	position:relative;
-	top:45%;
+	top:25%;
+}
+.hover-display p{
+	margin-top:0;
+	position:relative;
+	top:25%;
 }
  article:hover .hover-display{
 	visibility: visible;
