@@ -193,7 +193,9 @@ h3{
 	margin-top:0;
 	position:relative;
 	top:25%;
+	padding:5%;
 }
+
  article:hover .hover-display{
 	visibility: visible;
 }
@@ -225,6 +227,18 @@ h3{
 	float:left;
 	margin-left:10%;
 	text-align: left;
+}
+.exp-width{
+	margin-left:30%;
+	margin-right: 30%;
+}
+.google{
+	width:45% !important;
+	margin-top:5%;
+}
+.ga-img{
+	width:40% !important;
+	
 }
 /*footer*/
 footer{
